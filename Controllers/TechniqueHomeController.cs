@@ -16,13 +16,6 @@ namespace HomeAPI.Controllers
     {
         private static readonly HttpClient client = new HttpClient();
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public TechniqueHomeController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
         public async Task<string> GetTechniqueAsync(string keyword)
         {
