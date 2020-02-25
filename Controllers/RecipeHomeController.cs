@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Net.Http;
-
+using HomeAPI.Requests;
 
 namespace HomeAPI.Controllers
 {
@@ -17,17 +17,19 @@ namespace HomeAPI.Controllers
         private static readonly HttpClient client = new HttpClient();
 
         [HttpGet]
-        public string Get()
+        public async Task<string> GetAsync()
         {
             try
             {
-
+                var recipeRequester = new HttpRequests();
+                var uri = "https://u7bwesiqoc.execute-api.us-east-1.amazonaws.com/Prod/search/";
+                var body = "{\"query\":\"beef\"}";
+                return await recipeRequester.PostAsync(uri, body, "JSON");
             }
             catch
             {
-
+                return "Culinary Companion Home API";
             }
-            return "Culinary Companion Home API";
         }
     }
 }
