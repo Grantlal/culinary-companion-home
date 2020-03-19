@@ -21,9 +21,16 @@ namespace HomeAPI.Controllers
         {
             try
             {
+                string bodyDummy = "toast";
+                using (var reader = new StreamReader(Request.Body))
+                {
+                    var abody = reader.ReadToEndAsync().Result;
+                    bodyDummy = abody;
+                }
+                    
                 var recipeRequester = new HttpRequests();
                 var uri = "https://u7bwesiqoc.execute-api.us-east-1.amazonaws.com/Prod/search/";
-                var body = value;
+                var body = bodyDummy;
                 return await recipeRequester.PostAsync(uri, body, "JSON");
             }
             catch (Exception e)
