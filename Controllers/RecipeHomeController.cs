@@ -17,7 +17,7 @@ namespace HomeAPI.Controllers
         private static readonly HttpClient client = new HttpClient();
 
         [HttpPost]
-        public async Task<string> PostAsync(string value)
+        public async Task<string> PostAsync()
         {
             try
             {

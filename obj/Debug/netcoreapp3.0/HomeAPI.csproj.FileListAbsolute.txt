@@ -7,12 +7,11 @@ G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\bin\Debug\netcoreapp3.0\HomeAPI.runtime
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\bin\Debug\netcoreapp3.0\HomeAPI.runtimeconfig.dev.json
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\bin\Debug\netcoreapp3.0\HomeAPI.dll
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\bin\Debug\netcoreapp3.0\HomeAPI.pdb
-G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.csprojAssemblyReference.cache
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\staticwebassets\HomeAPI.StaticWebAssets.Manifest.cache
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\staticwebassets\HomeAPI.StaticWebAssets.xml
-G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.MvcApplicationPartsAssemblyInfo.cache
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.AssemblyInfoInputs.cache
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.AssemblyInfo.cs
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.RazorTargetAssemblyInfo.cache
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.dll
 G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.pdb
+G:\SeniorProject\HomeAPI\HomeAPI\HomeAPI\obj\Debug\netcoreapp3.0\HomeAPI.MvcApplicationPartsAssemblyInfo.cache
