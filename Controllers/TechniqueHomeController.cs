@@ -22,7 +22,7 @@ namespace HomeAPI.Controllers
             try
             {
                 var exampleRequester = new HttpRequests();
-                var url = "https://culinary-companion-technique.herokuapp.com/techniques?searchTag=";
+                var url = "https://culinarycompaniontechniques20200427203903.azurewebsites.net/Techniques?search=";
                 url += keyword;
                 return await exampleRequester.GetAsync(url);
             }
